@@ -22,8 +22,15 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "ex1_test.h"
+#include "ex2_test.h"
+#include "ex3_test.h"
+#include "ex4_test.h"
 #include "ex5_test.h"
+#include "ex6_test.h"
 #include "ex7_test.h"
+#include "ex8_test.h"
+#include "ex9_test.h"
 #include "ex10_test.h"
 /* USER CODE END Includes */
 
@@ -101,7 +108,7 @@ int main(void)
   clearAllClock();
   while (1)
   {
-	 displayClock(0,55,0);
+	  displayClock(0,0,0);
   }
 
     /* USER CODE END WHILE */
